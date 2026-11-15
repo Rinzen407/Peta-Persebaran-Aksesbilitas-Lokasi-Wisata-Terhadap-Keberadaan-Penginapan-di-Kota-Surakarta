@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ```
 # README – Standalone qgis2web Export
 ```
@@ -32,3 +33,6 @@ Example:
 "https://www.example.com/my-map/index.html"
 ```
 
+=======
+# Peta-Persebaran-Aksesbilitas-Lokasi-Wisata-Terhadap-Keberadaan-Penginapan-di-Kota-Surakarta
+>>>>>>> 5b1155818af121ac510e7f50e887c79234da53a5
