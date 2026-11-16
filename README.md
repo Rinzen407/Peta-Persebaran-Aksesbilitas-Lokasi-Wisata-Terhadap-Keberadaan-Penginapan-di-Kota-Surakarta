@@ -1,38 +1,52 @@
-<<<<<<< HEAD
-```
-# README – Standalone qgis2web Export
-```
+# WebGIS Persebaran dan Aksesibilitas Lokasi Wisata terhadap Keberadaan Penginapan di Kota Surakarta
 
-```
-This export is completely "self-contained".
-```
+WebGIS ini merupakan peta interaktif yang menyajikan persebaran lokasi wisata dan penginapan serta informasi aksesibilitas di Kota Surakarta. Proyek ini dibuat sebagai bagian dari kegiatan akademik Program Studi S1 Perencanaan Wilayah dan Kota, Universitas Negeri Surabaya.
 
-```
-To view the map, simply open "index.html" by double-clicking it.
-No web server or additional software is required.
-```
+## Lihat Peta
 
-```
-The map works because all the required JavaScript libraries are included
-in the export. The application loads the GeoJSON layer data and their styles
-directly from the local files.
-```
+**[Buka WebGIS](https://rinzen407.github.io/Peta-Persebaran-Aksesbilitas-Lokasi-Wisata-Terhadap-Keberadaan-Penginapan-di-Kota-Surakarta/)**
 
-# `## Publishing on a Website` 
+## Isi Peta
 
-```
-If you upload the entire folder to a web server, the map will work
-immediately by opening the "index.html" file.
-```
+- Persebaran lokasi wisata di Kota Surakarta.
+- Persebaran penginapan di Kota Surakarta.
+- Informasi jaringan jalan dan sungai sebagai data pendukung.
+- Informasi lokasi wisata dan penginapan melalui peta interaktif.
+- Analisis aksesibilitas antara lokasi wisata dan penginapan.
 
-```
-Example:
-```
+## Dibuat dengan
 
-```
-"https://www.example.com/my-map/index.html"
-```
+- QGIS
+- QGIS2Web (OpenLayers)
+- ArcGIS 10.8 (Network Analyst)
+- HTML, CSS, dan JavaScript
+- GitHub Pages
 
-=======
-# Peta-Persebaran-Aksesbilitas-Lokasi-Wisata-Terhadap-Keberadaan-Penginapan-di-Kota-Surakarta
->>>>>>> 5b1155818af121ac510e7f50e887c79234da53a5
+## Wilayah Kajian
+
+Kota Surakarta, Jawa Tengah, Indonesia.
+
+## Anggota Kelompok
+
+1. Aryo Octavian
+2. Reyhan Fahiza
+3. Maulana Arif Mubarok
+4. Aryadhita Pramudya Hafiz
+5. Rinaldi Satrio Nugroho
+6. Mohammad Yoga Mahendra
+7. Muhammad Faza Putra
+
+## Program Studi
+
+S1 Perencanaan Wilayah dan Kota (PWK)  
+Universitas Negeri Surabaya (UNESA)
+
+## Informasi Penggunaan
+
+WebGIS ini merupakan hasil ekspor QGIS2Web yang memuat file HTML, CSS, JavaScript, data geografis, serta aset pendukung lainnya.
+
+Untuk menjalankan peta secara lokal, buka file `index.html` melalui browser. Untuk publikasi daring, seluruh folder hasil ekspor diunggah ke GitHub Pages agar seluruh komponen peta dapat diakses.
+
+---
+
+**Terima kasih kepada semua pihak yang telah membantu dalam proses penyusunan dan pengembangan WebGIS ini.**
