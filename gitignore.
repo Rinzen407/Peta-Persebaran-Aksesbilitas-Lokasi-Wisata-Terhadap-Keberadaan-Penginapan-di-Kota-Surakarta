@@ -1,0 +1,13 @@
+
+# File sistem Windows
+Thumbs.db
+Desktop.ini
+
+# File sementara
+*.tmp
+*.bak
+*.log
+
+# File editor
+.vscode/
+.idea/
